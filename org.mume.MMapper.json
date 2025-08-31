@@ -9,7 +9,8 @@
         "--socket=fallback-x11",
         "--share=ipc",
         "--device=dri",
-        "--filesystem=xdg-documents"
+        "--filesystem=xdg-documents",
+        "--env=QT_QPA_PLATFORM=xcb"
     ],
     "command": "mmapper",
     "cleanup": [
@@ -131,8 +132,11 @@
                 {
                     "type": "git",
                     "url": "https://github.com/MUME/MMapper.git",
-                    "commit": "39b6e45a19042cf1c10c26d5b99f394c646df1ba"
+                    "commit": "da9f53bb56009b49a26e11f0b760d32b973df4f7"
                 }
+            ],
+            "build-commands": [
+                "git tag -d beta || true"
             ],
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=Release",
