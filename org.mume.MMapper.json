@@ -1,7 +1,7 @@
 {
     "app-id": "org.mume.MMapper",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.9",
+    "runtime-version": "6.10",
     "sdk": "org.kde.Sdk",
     "finish-args": [
         "--share=network",
@@ -148,7 +148,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/MUME/MMapper.git",
-                    "tag": "v26.04.0"
+                    "tag": "v26.04.1"
                 }
             ],
             "config-opts": [
