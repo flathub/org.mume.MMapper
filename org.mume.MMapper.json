@@ -126,7 +126,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/MUME/MMapper.git",
-                    "tag": "v26.04.1"
+                    "tag": "v26.04.2"
                 }
             ],
             "config-opts": [
